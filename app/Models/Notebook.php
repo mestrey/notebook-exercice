@@ -2,7 +2,9 @@
 
 namespace App\Models;
 
-class Notebook
+use Illuminate\Database\Eloquent\Model;
+
+class Notebook extends Model
 {
     protected $fillable = [
         'fio',
